@@ -1,3 +1,4 @@
+import { validationResult } from "express-validator";
 import Producto from "../database/models/producto.js";
 
 export const listarProductos = async (req, res) => {
